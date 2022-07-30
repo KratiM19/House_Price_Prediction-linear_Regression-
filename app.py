@@ -27,5 +27,5 @@ def predict():
         
     return render_template('index.html', prediction_text='Regression Model  has predicted salary for given experinace is : {}'.format(prediction))
 
-if__name__=='__main__':
+if__name__== "__main__":
     app.run(debug=True)
